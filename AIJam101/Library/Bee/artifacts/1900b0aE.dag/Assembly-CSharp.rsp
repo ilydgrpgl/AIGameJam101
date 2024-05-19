@@ -355,6 +355,7 @@
 "Assets/Antigua Guatemala Santa Catalina Arch 3D Model/Sample Scene Utilities/CameraSwitcher.cs"
 "Assets/Low Poly Trim Sheet Asset Collection/DemoSceneAssets/DemoSceneScripts/DemoCameraMovement.cs"
 "Assets/Script/Kontrol.cs"
+"Assets/Script/MainMenu.cs"
 "Assets/Script/Rotate.cs"
 -langversion:9.0
 /deterministic

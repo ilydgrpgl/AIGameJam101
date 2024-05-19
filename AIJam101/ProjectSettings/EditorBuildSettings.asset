@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Baslangic.unity
+    guid: 27535842a5747854689707423d0713c5
+  - enabled: 1
+    path: Assets/Scenes/Gecmis.unity
+    guid: 1781cb912785acb4d8cf960f5bdf2fa8
   m_configObjects: {}
