@@ -327,6 +327,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"Library/PackageCache/com.unity.testtools.codecoverage@1.2.5/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -354,8 +355,11 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Antigua Guatemala Santa Catalina Arch 3D Model/Sample Scene Utilities/CameraSwitcher.cs"
 "Assets/Low Poly Trim Sheet Asset Collection/DemoSceneAssets/DemoSceneScripts/DemoCameraMovement.cs"
+"Assets/Script/CollectNumber.cs"
+"Assets/Script/CollectSmthng.cs"
 "Assets/Script/Kontrol.cs"
 "Assets/Script/MainMenu.cs"
+"Assets/Script/PController.cs"
 "Assets/Script/Rotate.cs"
 -langversion:9.0
 /deterministic

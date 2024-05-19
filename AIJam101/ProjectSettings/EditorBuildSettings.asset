@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Gecmis.unity
     guid: 1781cb912785acb4d8cf960f5bdf2fa8
+  - enabled: 1
+    path: Assets/Scenes/GecmisBulmaca.unity
+    guid: 08d7d8d4b637d17419f174a6564a8e79
   m_configObjects: {}
