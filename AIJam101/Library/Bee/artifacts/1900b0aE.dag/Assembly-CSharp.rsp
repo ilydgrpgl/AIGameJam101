@@ -361,6 +361,7 @@
 "Assets/Script/MainMenu.cs"
 "Assets/Script/PController.cs"
 "Assets/Script/Rotate.cs"
+"Assets/Script/TimerGecmis.cs"
 -langversion:9.0
 /deterministic
 /optimize+
