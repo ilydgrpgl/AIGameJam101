@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TimerGecmis : MonoBehaviour
 {
@@ -32,6 +33,7 @@ public class TimerGecmis : MonoBehaviour
             remainingTime= 0;
             Debug.Log("Oyun Bitti");
         }
+       
         int minutes = Mathf.FloorToInt(remainingTime / 60);
         int seconds= Mathf.FloorToInt(remainingTime % 60);
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
@@ -39,7 +41,16 @@ public class TimerGecmis : MonoBehaviour
 
 
     }
+    public void PauseGame()
+    {
 
+        decSpeed = 0;
+    }
+    public void ContGame()
+    {
+
+        decSpeed = 1;
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.transform.CompareTag("TimeSlower"))
